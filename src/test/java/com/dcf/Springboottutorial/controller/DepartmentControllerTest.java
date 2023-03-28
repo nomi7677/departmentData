@@ -21,19 +21,19 @@ class DepartmentControllerTest {
     private DepartmentService departmentService;
 
     private Department department;
-    @Disabled
+
     @BeforeEach
     void setUp() {
         department=Department.builder().departmentAddress("Bear").departmentCode("IT106").departmentName("IT").departmentId(1L).build();
 
     }
 
-    @Test
-    void saveDepartment() {
-
-    }
-
-    @Test
-    void getDepartmentById() {
-    }
+//    @Test
+//    void saveDepartment() {
+//
+//    }
+//
+//    @Test
+//    void getDepartmentById() {
+//    }
 }

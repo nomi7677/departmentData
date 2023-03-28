@@ -14,7 +14,7 @@ class DepartmentRepositoryTest {
     private DepartmentRepository departmentRepository;
     @Autowired
     private TestEntityManager entityManager;
-    @Disabled
+
     @BeforeEach
     void setUp() {
 
@@ -27,8 +27,6 @@ class DepartmentRepositoryTest {
 
    @Test
 
-
-   @Disabled
     public void whenFindById_thenReturnDepartment(){
         Department department = departmentRepository.findById(2L).get();
 
