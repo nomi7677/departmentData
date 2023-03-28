@@ -1,13 +1,53 @@
-spring:
-  datasource:
-    username: sa
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    password: ''
-  h2:
-    console:
-      enabled: 'true'
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-welcome:
-  message: Welcome to the Spring Boot Tutorial
+#spring:
+#  profiles:
+#    active: dev
+#---
+#spring:
+#  profiles: dev
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    password: ''
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#
+#welcome:
+#  message: Welcome to the Spring Boot Tutorial
+#
+#---
+#spring:
+#  profiles: uat
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    password: ''
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#
+#welcome:
+#  message: Welcome to the Spring Boot Tutorial
+#
+#---
+#spring:
+#  profiles: prod
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    password: ''
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#
+#welcome:
+#  message: Welcome to the Spring Boot Tutorial
